@@ -7,6 +7,7 @@
   import About from "./components/About/About.svelte";
   import Skills from "./components/Skills/Skills.svelte";
   import Projects from "./components/Projects/Projects.svelte";
+  import Contact from "./components/Contact/Contact.svelte";
 
   let theme;
   let clicks = 0;
@@ -39,7 +40,7 @@
       </Route>
 
       <Route path="/contact">
-        Contacto
+        <Contact theme={theme}/>
       </Route>
 
     </Router>
